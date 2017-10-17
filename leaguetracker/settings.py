@@ -25,7 +25,7 @@ SECRET_KEY = '--pf(ts_fiap3nb!2f_blc7)*$b+9+t2m)2@1k+v_42f6asl$@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['0.0.0.0', 'enigmatic-wave-34833.herokuapp.com']
 
 
 # Application definition
