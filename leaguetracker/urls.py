@@ -18,5 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^leaguetool/', include('leaguetool.urls')),
+    url(r'^leaguetool/ps3/7071757/leagueteams', include('leaguetool.urls')),
 ]
