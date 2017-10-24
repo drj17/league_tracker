@@ -9,5 +9,6 @@ from django.views.decorators.csrf import csrf_exempt
 def index(request):
     if request.method == 'POST':
         ustr_to_load = str(request.body, "ISO-8859-1")
+        print(ustr_to_load)
         data = json.loads(ustr_to_load)
         return JsonResponse(data)
